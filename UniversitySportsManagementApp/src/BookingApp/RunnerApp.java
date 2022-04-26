@@ -1,6 +1,12 @@
 package BookingApp;
 
+import java.util.ArrayList;
+
 public class RunnerApp {
+	
+	public static List<StudentData> allStudent=new ArrayList<StudentData>();
+	public static List<Lessons> allLessons=new ArrayList<Lessons>();
+	public static List<schedularClass> timeTable=new ArrayList<schedularClass>();
 	
 public static void main(String[] args) {
 		
